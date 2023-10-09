@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+}
+
+.header-top{
+    padding: 0.5em 0;
+    background-color: #333;
+    color: #FFF;
+}
+
+p{
+    margin: 0;
+}

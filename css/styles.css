@@ -14,4 +14,54 @@ header{
 
 p{
     margin: 0;
+    line-height: 1.9em;
+    color: #777;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button-nav{
+    background: #ffffff;
+    border: 2px #ffffff solid;
+    border-radius: 5px;
+    color: #00bcd5;
+    padding: 6px 30px;
+    margin-left: 10px;
+}
+
+.nav-link{
+    padding: 10px 10px;
+    color: #fff;
+}
+
+.text-banner{
+    margin: 23% 1%;
+}
+
+.image-banner {
+    padding-top: 7em;
+}
+
+.btn:hover {
+    color: #fff;
+}
+
+.btn-banner{
+    border-radius: 0px;
+    font-size: 16px;
+    color:#fff;
+    font-size: 16px;
+    padding: 10px 25px;
+    border-radius: 0%;
+}
+
+.text-banner h3{
+    font-size: 4em;
+    color: #353c4e;
+    line-height: 75px;
+    padding-top: 1em;
+    font-weight: 300;
+    text-shadow: none;
+    letter-spacing: 1px;
 }

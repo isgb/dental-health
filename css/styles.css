@@ -91,7 +91,8 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 1px;
 }
 
-.about-section{
+.about-section,
+.what-we-do-section{
     margin: 5% 0;
 }
 
@@ -121,4 +122,8 @@ div.icon-about ~ h4{
     margin: 1em 0;
     color: #353c4e;
     font-weight: 600;
+}
+
+.what-we-do-section{
+    background: #f8f9fa;
 }

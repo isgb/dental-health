@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
 header{
@@ -19,6 +20,12 @@ p{
     font-size: 15px;
     letter-spacing: 1px;
     font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    letter-spacing: 1px;
+    font-family: 'Dosis', sans-serif;
 }
 
 .button-nav{
@@ -56,6 +63,24 @@ p{
     border-radius: 0%;
 }
 
+.btn-banner-1{
+    border-style:none;
+    background: #00bcd5;
+}
+
+.btn-banner-1:hover{
+    background: #00bcd5;
+}
+
+.btn-banner-2{
+    border-style:none;
+    background: #ed948e;
+}
+
+.btn-banner-2:hover{
+    background: #ed948e;
+}
+
 .text-banner h3{
     font-size: 4em;
     color: #353c4e;
@@ -64,4 +89,36 @@ p{
     font-weight: 300;
     text-shadow: none;
     letter-spacing: 1px;
+}
+
+.about-section{
+    margin: 5% 0;
+}
+
+.about-title > h4{
+    font-size: 32px;
+    color: #353c4e;
+    text-transform: capitalize;
+}
+
+.icon{
+    background: #00bcd5;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.icon .fa{
+    font-size: 2em;
+    color: white;
+    margin: 25% 0;
+}
+
+div.icon-about ~ h4{
+    text-transform: uppercase;
+    font-size: 1em;
+    margin: 1em 0;
+    color: #353c4e;
+    font-weight: 600;
 }

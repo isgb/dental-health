@@ -127,3 +127,7 @@ div.icon-about ~ h4{
 .what-we-do-section{
     background: #f8f9fa;
 }
+
+.card{
+    padding: 50px 40px;
+}

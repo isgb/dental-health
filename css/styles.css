@@ -186,3 +186,19 @@ div.icon-about ~ h4{
     display: inline-block;
     text-decoration: none;
 }
+
+.appointment-section{
+    background: #00bcd5;
+}
+
+.appointment-section h4,
+.appointment-section p,
+.appointment-section a{
+    color: #fff;
+}
+
+.appointment-section h4 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}

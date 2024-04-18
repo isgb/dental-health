@@ -202,3 +202,9 @@ div.icon-about ~ h4{
     text-transform: uppercase;
     letter-spacing: 5px;
 }
+
+.appointment-section a{
+    border: 3px white solid;
+    width: 20%;
+    margin: 0 auto;
+}
